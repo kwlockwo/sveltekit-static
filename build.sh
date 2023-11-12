@@ -1,12 +1,15 @@
 #!/bin/sh
 
-echo "pnpm: $(pnpm --version)"
+# echo "pnpm: $(pnpm --version)"
 
-echo "forcing new pnpm"
-npm install -g pnpm
+# echo "forcing new pnpm"
+# npm install -g pnpm
 
 echo "node: $(node --version)"
-echo "pnpm: $(pnpm --version)"
+# echo "pnpm: $(pnpm --version)"
 
-pnpm i
-pnpm build
+# pnpm i
+# pnpm build
+
+npm install
+npm build
